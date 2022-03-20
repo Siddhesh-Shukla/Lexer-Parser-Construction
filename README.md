@@ -13,13 +13,12 @@ In this assignment we wrote a DFA-based Lexical Analyser that recognizes some of
 Our language reserves all the key words that can appear in the language.
 ## Scanner Deliverables
 ```
-C/C++ Code for scanner.
+Python Code for scanner.
 Test cases and output files for test cases
 ```
 ## Scanner sample Test Suite
 ```
-Formulate your own test set / programs from the token list given as examples. The test set to be
-used for evaluation
+Formulated our own test set / programs from the token list given as examples. The test set to be used for evaluation
 ```
 
 ## Token List
