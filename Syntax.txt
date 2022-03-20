@@ -1,0 +1,25 @@
+Declaration
+dtype iden;
+dtype iden = init_value;
+
+
+# Print
+print("string")
+println("string")
+
+# Scan
+n = input(int);
+
+# Conditionals
+if(condition) {}
+elif(condition) {}
+else {}
+
+# While Loop
+while(condition) {}
+
+# For Loop
+for(begin, end, jump) {}
+
+# Function 
+function fn_name(arguments; return type) {}
