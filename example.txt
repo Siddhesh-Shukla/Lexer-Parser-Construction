@@ -1,41 +1,7 @@
-# TEAM MEMBERS:
-    # Mudit Sharma 2019A7PS1344H
-    # Siddhesh Shukla 2019A7PS0099H
-    # Rahul Vegesna 2019A7PS1205H
-    # Parth Gedia 2019A7PS0151H
-
-
-# Code to find factorial of numbers from 1 to n
-
-# Initialization
-int n;
-
-println("Enter Positive Number")
-n = input(int);
-
-if(n > 0) {
-    int iter = 1;
-    while(iter <= n) {
-        int result = find_factorial(iter);
-        print(result);
-    }
-}
-elif(n == 0) {
-    print("0 is not valid input")
-}
-else {
-    print("Negative Numbers not allowed");
-}
-
-# function syntax: function fn_name(arguments; return type) { [CODE] }
-
-function find_factorial(int x; int) {
-    int res = 1;
-
-    # for(begin, end, jump)
-    for (iter = 2, x+1, 1) {
-        res = res*iter;
-    }
-
-    return res;
-}
+abc
+2abc
+5.5
+5.5.5
+'c'
+'Casdf
+"sdfghj
