@@ -11,8 +11,7 @@ string name = input(string);                                                    
 int n = len(name);                                                                              #length of the input
 int i = 0;
 int result = 0;
-while(i<n)                                                                                      #while condition in the form of while(Expression)
-{
+while(i<n) {                                                                                   #while condition in the form of while(Expression){
     if(name[i] == 'a'||name[i] == 'e'||name[i] == 'i'||name[i] == 'o'||name[i] == 'u')
     result = result + 1;                                                                        #adds to the result
 }

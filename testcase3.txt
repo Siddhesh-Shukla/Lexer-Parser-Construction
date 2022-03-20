@@ -6,11 +6,11 @@
 
 
 #program to print the sum of all the elements of an array
-int arr[] = {1,2,3,4,5};
+int arr[] = {1, 2, 3, 4, 5};
 int result = 0;
 for (iter = 0, 5, 1) {
-        result = result + arr[iter];
-    }
+    result = result + arr[iter];
+}
 println(result)
 
 int x = 1abc;       #this line should generate an error as 1abc does not come under any token pattern
