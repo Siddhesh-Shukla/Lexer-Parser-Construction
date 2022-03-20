@@ -1,0 +1,19 @@
+# TEAM MEMBERS:
+    # Mudit Sharma 2019A7PS1344H
+    # Siddhesh Shukla 2019A7PS0099H
+    # Rahul Vegesna 2019A7PS1205H
+    # Parth Gedia 2019A7PS0151H
+ 
+
+#program which finds the number of vowels in a lower case letter
+println("Enter your Name in Lower Case");
+string name = input(string);                                                                    #takes input from user
+int n = len(name);                                                                              #length of the input
+int i = 0;
+int result = 0;
+while(i<n)                                                                                      #while condition in the form of while(Expression)
+{
+    if(name[i] == 'a'||name[i] == 'e'||name[i] == 'i'||name[i] == 'o'||name[i] == 'u')
+    result = result + 1;                                                                        #adds to the result
+}
+println("Your Name has" + result + "Vowels");                                                   #println keyword in our language, directly prints to the command line
