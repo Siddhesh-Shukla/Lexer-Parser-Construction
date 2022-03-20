@@ -1,4 +1,5 @@
-# Lexer / Scanner
+# Phase-1
+# Lexer Construction
 In this assignment we wrote a DFA-based Lexical Analyser that recognizes some of the basic lexemes. A driver program(parser) is written that calls your Scanner repeatedly, returning each token found by the Scanner in the input stream.
 
 ## Requirements Specification:
